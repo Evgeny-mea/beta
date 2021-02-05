@@ -23,5 +23,6 @@ public class Tunnel extends Stage {
             semaphore.release();
             System.out.println(c.getName() + " закончил этап: " + description);
         }
+
     }
 }
