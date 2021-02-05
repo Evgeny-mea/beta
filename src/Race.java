@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
+
 class Race {
     private ArrayList<Stage> stages;
     ArrayList<Stage> getStages() {

@@ -14,6 +14,7 @@ public class Main {
         for (int i = 0; i < cars.length; i++) {
             final int randomSpeed = 20 + (int) (Math.random() * 10);
             cars[i] = new Car(race, randomSpeed);
+            
         }
         for (Car car : cars) {
             new Thread(car).start();

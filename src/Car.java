@@ -52,6 +52,7 @@ public class Car implements Runnable {
         countDownLatchFinish.countDown();
         checkWinner(this);
     }
+
     private static synchronized void checkWinner(Car c) {
         if (!winnerFound) {
             System.out.println(c.name + " - WIN");
